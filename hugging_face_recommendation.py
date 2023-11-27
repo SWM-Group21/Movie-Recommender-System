@@ -22,7 +22,7 @@ ratings = pd.read_csv(data_path)
 movies = pd.read_csv(movies_path)
 
 # Merge ratings with movie titles
-movie_ratings = pd.merge(ratings, movies[['movieId', 'title']], on='movieId')
+movie_ratings = pd.merge(ratings, movies[['movieId', 'title', 'genres']], on='movieId')
 
 # Group ratings by movie and calculate average rating
 average_ratings = movie_ratings.groupby('title')['rating'].mean().reset_index()

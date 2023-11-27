@@ -5,7 +5,9 @@
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](images/landing_page.png)
+![App Screenshot](images/recommendations_output1.png)
+![App Screenshot](images/recommendations_output2.png)
 
 
 ## Dataset
